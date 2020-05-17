@@ -1,0 +1,103 @@
+.banner {
+    height: fit-content;
+    background-color: #343a40!important;
+    align-items: center;
+    border-bottom: 1px solid #4B5460;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner h5 {
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #f3f5f4;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.custom-tab {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    border-top: none!important;
+    background-color: rgba(0,0,0,.05)!important;
+} 
+
+.custom-tab--selected {
+    border-bottom: 2px solid #1975FA!important;
+} 
+
+#tab-intro {
+    margin: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.tab1-main {
+    display: inline-flex;
+    vertical-align: top;
+    width: 75%
+}
+
+.plots {
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-block-end: 40px;
+    margin-bottom: 30px;
+    border: solid;
+    width:100%
+}
+
+#tab2-main {
+    width: 90%;
+    float: left;
+    margin-left: 5%
+}
+
+#treasury-plots-main {
+    display: inline-flex;
+}
+
+#corp-bond-plots-main {
+    display: inline-flex;
+}
+
+#swap-plots-main {
+    display: inline-flex;
+}
+
+.plot-3d {
+    width: 60%;
+}
+
+.yield-plot {
+    width: 40%;
+}
+
+.rate-change-description-text {
+    font-family: "Open Sans", sans-serif;
+}
+
+.plot-category {
+    font-family: 'Open Sans Semi Bold', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 1.2%;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    background-color: rgba(0,0,0,.05);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-block-end: 15px;
+    text-transform: capitalize;
+}
