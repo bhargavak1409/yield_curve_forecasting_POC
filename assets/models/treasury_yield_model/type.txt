@@ -1,1 +1,1 @@
-gluonts.model.predictor.RepresentableBlockPredictor
+gluonts.mx.model.predictor.RepresentableBlockPredictor

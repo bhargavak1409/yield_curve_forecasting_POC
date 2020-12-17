@@ -32,8 +32,8 @@ param_dict = {
         'use_feat_dynamic_real': True,
         'ctx': mx.cpu(0)
     },
-    'swap_yield': {
-        'model_path': Path.cwd().joinpath("assets").joinpath("models").joinpath("swap_yield_model"),
+    'swap_rate': {
+        'model_path': Path.cwd().joinpath("assets").joinpath("models").joinpath("swap_rate_model"),
         'freq': "M",
         'prediction_length': 1,
         'context_length': 5,
